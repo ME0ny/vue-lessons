@@ -1,11 +1,43 @@
 <template>
-    <div>
+    <div class="title">
         <div class="header">
-            Наборы носков
+            {{header_title.title}}
         </div>
         <div class="description">
-            Ты можешь заказать существующие наборы или принять<br>
-            участие в сборе средств на новый набор
+            {{header_title.description}}
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        props:  ["header_title"]
+    }
+</script>
+
+<style>
+@font-face {
+    font-family: "Nunito";
+    src: local("Nunito"),
+    url(./fonts/Nunito-Regular.ttf) format("truetype");
+}
+.title{
+    margin-left: 38px;
+}
+.header{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.description{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+</style>
