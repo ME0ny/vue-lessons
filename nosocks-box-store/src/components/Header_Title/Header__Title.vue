@@ -1,9 +1,9 @@
 <template>
     <div class="title">
-        <div class="header">
+        <div class="header Nunito-Regular">
             {{header_title.title}}
         </div>
-        <div class="description">
+        <div class="description Nunito-Regular">
             {{header_title.description}}
         </div>
     </div>
@@ -16,27 +16,16 @@
 </script>
 
 <style>
-@font-face {
-    font-family: "Nunito";
-    src: local("Nunito"),
-    url(./fonts/Nunito-Regular.ttf) format("truetype");
-}
 .title{
     margin-left: 38px;
 }
 .header{
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 33px;
     color: #000000;
 }
 .description{
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 25px;
     color: #000000;
 }

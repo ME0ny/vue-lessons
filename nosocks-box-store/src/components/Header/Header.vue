@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="logo">
             <img src="./img/logo.png" class="logo__image" alt="">
-            <div class="logo__text">Nosocks</div>
+            <div class="logo__text Nunito-Regular">Nosocks</div>
         </div>
         <header-title 
             v-bind:header_title="header_title"/>
@@ -33,11 +33,6 @@
 </script>
 
 <style>
-@font-face {
-font-family: "Nunito";
-src: local("Nunito"),
-   url(./fonts/Nunito-Regular.ttf) format("truetype");
-}
 .wrapper{
     display: grid;
     grid-template-columns: 119px 3fr 1fr;
@@ -53,10 +48,7 @@ src: local("Nunito"),
 }
 
 .logo__text{
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 25px;
     /* identical to box height */
     padding: auto;

@@ -4,7 +4,7 @@
             <img src="./img/account.png" alt="">
         </div>
         <div v-else style="width: 100%;">
-            <button class="button button_sign_in">
+            <button class="button button_sign_in Nunito-Regular">
                     Войти
             </button>
         </div>
@@ -18,16 +18,8 @@
 </script>
 
 <style>
-@font-face {
-font-family: "Nunito";
-    src: local("Nunito"),
-   url(./fonts/Nunito-Regular.ttf) format("truetype");
-}
 .button_sign_in{
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-size: 1.4rem;
     line-height: 25px;
 
     width: 80px;
