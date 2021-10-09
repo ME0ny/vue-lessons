@@ -17,39 +17,49 @@ export default {
         {
           title: "Дальневосточные носки",
           description: "Достопримечательности региона",
-          rating: 1,
+          rating: 4,
+          size: [36, 37, 38, 39, 40, 41],
           socks: [
             require("@/img/petrogl.png"),
             require("@/img/icra.png"),
-            require("@/img/mamont.png"),
-            require("@/img/rocket.png")
           ],
           status:{
-            status: "but",
-            value: 200
+            status: "buy",
+            value: {
+              left: {
+                box: "100",
+                order_name: "наборов"
+              },
+            }
           },
           price: 450
         },
         {
-          title: "Дальневосточные носки 2",
-          description: "Достопримечательности региона 2",
-          rating: 4,
+          title: "Дальневосточные носки",
+          description: "Достопримечательности региона",
+          rating: 5,
+          size: [36, 37, 38, 39, 40, 41],
           socks: [
             require("@/img/petrogl.png"),
-            require("@/img/icra.png"),
             require("@/img/mamont.png"),
             require("@/img/rocket.png")
           ],
           status:{
-            status: "but",
-            value: 100
+            status: "buy",
+            value: {
+              left: {
+                box: "1",
+                order_name: "набор"
+              },
+            }
           },
-          price: 4500
+          price: 450
         },
         {
-          title: "Дальневосточные носки 3",
-          description: "Достопримечательности региона 3",
-          rating: 4,
+          title: "Дальневосточные носки",
+          description: "Достопримечательности региона",
+          rating: 0,
+          size: [36, 37, 38, 39, 40, 41],
           socks: [
             require("@/img/petrogl.png"),
             require("@/img/icra.png"),
@@ -57,11 +67,20 @@ export default {
             require("@/img/rocket.png")
           ],
           status:{
-            status: "but",
-            value: 102
+            status: "pre-order",
+            value: {
+              left: {
+                box: "100",
+                order_name: "заказов"
+              },
+              days:{
+                day: 15,
+                day_name: "дней"
+              }
+            }
           },
-          price: 4504
-        }
+          price: 4400
+        },
       ]
     }
   },
