@@ -59,6 +59,7 @@
     margin-top: auto;
     margin-left: 11px;
 }
+
 .ticket-buy__footer__button_buy{
     position: absolute;
     background: #F91616;
