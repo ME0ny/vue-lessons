@@ -21,7 +21,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(3, 322px);
   justify-content: space-evenly;;
-  grid-row-gap: 5px;
+  grid-row-gap: 45px;
   grid-column-gap: 5px;
   position: relative;
   margin-top: 30px;
@@ -35,7 +35,7 @@ export default {
     }
 }
 
-@media screen and (max-width: 530px)
+@media screen and (max-width: 980px)
 {
     .grid {
         grid-template-columns: repeat(1, 241px);
